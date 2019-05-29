@@ -1,0 +1,139 @@
+body {
+    background-image: url("../images/pexels-photo-2271194.jpeg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.brand {
+    font-family: lucida, serif;
+    font-size: 48px;
+    font-style: italic;
+    color: rgba(200,0,0,1);
+    text-shadow: 3px 3px 6px black;
+    text-align: center;
+}
+
+.table-row {
+    height: 100%;
+    padding: 0 15%;
+}
+
+.section {
+    background-color: rgba(255,255,255,.7);
+    height: 100%;
+    border: 2px solid rgba(0,0,0,.5);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.section:hover {
+    background-color: rgba(255,255,255,.9);
+}
+
+.heading {
+    margin-top: 10px;
+    background-color: rgba(200,0,0,.5);
+    text-align: center;
+    border: 2px solid rgba(0,0,0,.5);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.subheading {
+    font-size: 16px;
+    text-align: center;
+}
+
+.fixed-header thead tr {
+    display: block;
+}
+.fixed-header tbody {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 250px;
+}
+
+table {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.containerw60 {
+    width: 100%;
+    padding: 0 20%;
+}
+
+/* .a .b .c apply to the order selection sections
+.a { /* column a contains the radio buttons and checkboxes */
+    width: 8%;
+}
+
+.b { /* column b contains the labels */
+    width: 72%;
+}
+
+.c { /* column c contains the prices */
+    width: 20%;
+    text-align: right;
+}
+
+
+/* .d .e .f .g .h apply to the order summary screen */
+.dc { /* column dc contains cancelation buttons */
+    width: 5%;
+    text-align: left;
+}
+
+.d { /* column d contains the description */
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.e { /* column e contains the prices */
+    width: 20%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.f { /* column f contains the subtotal */
+    width: 20%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.g1 {background-color: rgba(200,0,0,.5);}
+.g2 {background-color: rgba(200,0,0,.1);}
+.h1 {background-color: rgba(0,0,200,.5);}
+.h2 {background-color: rgba(0,0,200,.1);}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(200,0,0,.5);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.w3-modal h1 {
+    width: 100%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgba(200,0,0,.8);
+    box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.bottom { /* applies to the bottom of the page */
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.w3-modal-content {
+    border: 2px solid rgba(0,0,0,.5);
+}
